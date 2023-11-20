@@ -87,13 +87,12 @@ export default {
 }
 
 .user-card {
-  flex: 0 0 100%; /* Set initial width to full width */
-  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .card {
-  width: 100%;
-  margin-bottom: 20px;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -129,7 +128,6 @@ export default {
   }
   .user-card {
     flex: 0 0 calc(33.33% - 20px); /* Set width for 3 cards per row with margins */
-    justify-content: space-between;
   }
 }
 </style>
